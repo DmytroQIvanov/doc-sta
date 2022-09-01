@@ -1,0 +1,22 @@
+
+.search{
+  position: relative;
+  &_input {
+    padding: 10px 30px;
+    display: block;
+    border-radius: 30px;
+    border: 1px solid #524f4f;
+    width: calc(100% - 60px);
+    height: calc(100% - 24px) !important;
+    font-size: 16px;
+  }
+  .find{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+  }
+}
